@@ -1,0 +1,250 @@
+﻿.featuredcontainer{width:100%;min-height:120px;margin-top:3px;padding-top:3px;padding-right:5px;height:auto!important}
+.featurelist {
+width: 98%;
+height: 90px;
+margin-top: 1%;
+border: 1px dotted #ccc;
+padding:1%;
+}
+.imagerotatorcontainer {
+  width: 100%;
+  min-height: 700px;
+  margin-top: 3px;
+  padding-top: 3px;
+  padding-right: 5px;
+  height: auto!important;
+}
+.link_btn {
+  margin-top: -79px;
+  margin-bottom: 10px;
+  /*margin-left: 100px;
+  margin-right: 100px;
+  border: black 1px solid;*/
+  position: relative;
+  width: 860px;
+  height: 75px;
+  z-index: 3;
+  color:white;
+  background:rgba(0,0,0,0.5);
+}
+#leftblock{float:left;width:73%;height:auto;}
+#rightblock{float:right;width:26%;height:auto;}
+
+.treenav{
+	background:#222;
+	color:#FFFFFF;
+	padding:5px; padding-left:10px;
+	margin-top:21px;margin-left:-5px;
+	}
+.featurecat{
+	margin-top: 4px;
+	min-height: 64px;
+	line-height: 17px;
+	padding: 5px;
+	background: #F8F8F8;
+	border-bottom: 1px solid #F2E7B8;
+	}
+.featurecat img{float:left;margin-top:3px;margin-right:6px;margin-bottom:2px;padding:2px;background:#fff;border:1px solid #ccc;}
+
+.rel_cat{
+	width: 45%;
+	height: 64px;
+	line-height: 17px;
+	padding: 1%;
+	background: #F8F8F8;
+	border: 1px solid #F2E7B8;
+	float: left;
+	margin: 1%;
+	margin-right: 1%;
+	}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	color: #FFF;
+	text-align: center;
+}
+
+#vid_out {
+	background-color:#eceaea;
+	color:#FFF;
+	margin: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+	float: left;
+	width: 21%;
+	
+}
+#vid_display {
+	background-color:#222;
+	font-family:"Comic Sans MS", cursive;
+	font-weight:300;
+	font-size:24px;
+	padding:2px;
+	text-align:center;
+	margin-top:5px;
+	margin-bottom: 10px;
+	min-height: 200px;
+}
+.icaption {
+position: relative;
+bottom: 28px;
+left: 0px;
+margin: 0;
+display: block;
+padding: 0px;
+font-size: 11px;
+text-align:center;
+color: #fff;
+cursor: default;
+background: url(caption.png);
+}
+#vid_info {
+	background-color:#222;
+	font-family:"Comic Sans MS", cursive;
+	font-weight:300;
+	font-size:24px;
+	padding:2px;
+	text-align:center;
+	margin-bottom:5px;
+	height: 90px;
+}
+.vid_info {
+    text-decoration:none;
+	color: #FFFFFF;
+}
+.vid_info:hover {
+	padding:2px;
+    text-decoration:none;
+	background-color:#222222;
+	color: red;
+	font-size:25px;
+}
+#cat_header {
+	background-color:#222;
+	font-family:"Comic Sans MS", cursive;
+	font-weight:300;
+	font-size:24px;
+	padding:2px;
+	text-align:center;
+}
+#cat_out {
+	background-color:#eceaea;
+	color:#FFF;
+	margin: 1%;
+	padding: 1%;
+	float: left;
+	height: 390px;
+	width: 21%;
+	border-bottom:solid 10px #63635F;
+}
+.cat_header {
+    text-decoration:none;
+	color: #FFFFFF;
+	margin-left: 10px;
+}
+.cat_header:hover {
+	padding:1px;
+    text-decoration:none;
+	background-color:#222222;
+	color: red;
+	font-size:25px;
+}
+#whitebox{
+	background-color:#EDF7D0;
+	margin-bottom:0px;
+}
+.required_field{
+color:red;
+text-weight:bold;
+}
+.everest_bg{
+background:url('../images/logo.png');
+}
+#body{
+background:#fff;
+padding:10px;
+margin:10px auto;
+width:100%;
+min-height:200px;
+box-shadow: 0 0 10px #000;
+}
+#title_bar table{
+	font-family:tahoma;
+	font-size:12px;
+	width:100%;
+}
+#title_bar table td{
+	padding:5px;
+}
+#title_bar table a{
+	background:#ccc;
+	padding:10px;
+	text-decoration:none;
+	color:#333;
+	display:block;
+}
+#title_bar table a:hover{
+	background:#333;
+	color:#fff;
+	font-weight:bold;
+}
+#album_con{
+border:1px solid #ccc;
+padding:10px;
+margin:6px;
+color:#333;
+}
+#view_box{
+width:150px;
+box-shadow: 0 0 5px #ccc;
+padding:5px;
+margin:5px;
+float:left;
+
+}
+.clear{
+clear:both;
+}
+#view_box img{
+width:100%;
+}
+#album_sho {
+width: 85%;
+padding: 5px;
+background-color: #FFF;
+margin-top: 2px;
+margin-left: auto;
+margin-right: auto;
+}
+#iview_box{
+width:230px;
+height:auto;
+box-shadow: 0 0 5px #ccc;
+padding:5px;
+margin:5px;
+float:left;
+}
+#iview_box a{
+text-decoration:none;
+color:#333;
+cursor: pointer;
+font-weight:bold;
+margin:5px;
+
+}
+.igotcapt {
+position: relative;
+bottom: 50px;
+left: 0px;
+margin: 0;
+display: block;
+padding: 0px;
+font-size: 11px;
+height: 50px;
+text-align: center;
+color: #fff;
+cursor: default;
+background: url(caption.png);
+}
+

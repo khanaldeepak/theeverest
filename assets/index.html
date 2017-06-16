@@ -1,0 +1,656 @@
+<!--Header Starts-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Pragma" content="cache">
+<meta name="ROBOTS" content="All">
+<meta name="keywords" content="news,u headline, headlines, technology, latest news, tech news, nepal news, nepal online news, online nepal, tech nepal">
+<meta name="description" content="news, headline, headlines, technology, latest news, tech news, nepal news, nepal online news, online nepal, tech nepal">
+<link href="PHP Enter Demo_files/favicon.ico" type="image/x-icon" rel="shortcut icon">
+<link rel="stylesheet" type="text/css" href="styles/mobile.css">
+<link rel="stylesheet" type="text/css" href="styles/reset.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/ajaxfun.js"></script>
+<script type="text/javascript" src="scripts/main.js"></script>
+<script type="text/javascript" src="scripts/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.cycle2.min.js"></script>
+<link rel="stylesheet" type="text/css" href="styles/sliderstyle.css">
+<title>Nepal News: Home</title>
+</head>
+<body>
+<div class="main_wrapper">
+<!--Header Start-->
+	<header class="main_header">
+<!--logo area start-->
+		<div class="logo">
+		<a href="index.php"><img src="./images/logo.png"/><span class="logo_text">THE TIMES OF EVEREST</span></a>
+		</div>
+		<!--Logo Area Ends-->
+<!--Search Area Starts-->
+		<div class="search">
+		
+		<form action="search.php" method="GET">
+
+<input id="intext" class="txt" type="text" name="search" placeholder="Search for news"/>
+
+<input class="b-search" type='submit' name='submit' value='Search source code' >
+</form>
+		</div>
+<!--Search Area Ends-->
+		<div class="clear"></div>
+	</header>
+<!--Main NAvigation Starts-->
+<nav id="i-nav">MENU</nav>
+	<nav class="main_nav">
+		<ul>
+			<li class="hide"><a href="index.php">Home</a></li>
+			<li><a href="browsecat.php?catid=1">Business</a></li>
+			<li><a href="browsecat.php?catid=2">Entertainment</a></li>
+			<li><a href="browsecat.php?catid=3">Health</a></li>
+			<li><a href="browsecat.php?catid=4">Internet</a></li>
+			<li><a href="browsecat.php?catid=5">Politics</a></li>
+			<li><a href="browsecat.php?catid=6">Science</a></li>
+			<li><a href="browsecat.php?catid=7">Sports</a></li>
+				<ul class="mob">
+					<li><a href="submit.php">Submit Story</a></li>
+					<li><a href="gallary.php">Gallery</a></li>
+					<li><a href="#">Members</a></li>
+					<li><a href="browsecatagory.php">Browse by Category</a></li>
+					<li><a href="videos.php">Videos</a></li>
+					<li><a href="#">Top Rated Articles</a></li>
+					<li><a href="#">News RSS Feeds</a></li>
+				</ul>
+		</ul>
+	</nav>
+	<!--Main Navigation Ends-->
+	<!--Sub Menus Starts-->
+	<div id="sectabs">
+	<ul>
+<li><a href="submit.php">Submit Story</a></li>
+<li><a href="gallary.php">Gallery</a></li>
+<li><a href="#">Members</a></li>
+<li><a href="browsecatagory.php">Browse by Category</a></li>
+<li><a href="videos.php">Videos</a></li>
+<li><a href="#">Top Rated Articles</a></li>
+<li><a href="#">News RSS Feeds</a></li>
+</ul>
+</div>
+	<!--Sub Menus Ends-->
+<!--Ticker Start-->
+<div class="ticker"><strong>Latest News:</strong> This is ticker</div>
+<!--Ticker Ends--><!--Header Ends-->
+<!--Slider Starts-->
+<section class="main_body">
+<!--Slider Starts-->
+<div class="cycle-slideshow" data-cycle-slides=".slide" data-cycle-pause-on-hover="true" data-cycle-fx="scrollHorz" data-cycle-timeout="3000">
+	<!--Slider Control Starts-->
+	<span class="cycle-next"></span>
+	<span class="cycle-prev"></span>
+	<span class="cycle-pager"></span>
+	<!--Slider Control Ends--><!--Slide-One-->
+	<div class="slide">
+	<img src="images/sliders/banner.jpg" alt="Banner by Andy">
+	<!--Caption Start-->
+	<div class="caption">
+		<h3>This is test for slider one as google reference</h3>
+		<p>Want to learn more about how to create this slider visit us at the seminar today on perscholas. This is for demo only..</p>
+		<p><a href="http://www.google.com">READ MORE</a></p>
+	</div>
+	<!--Caption Ends-->
+	</div>
+	<!--Slide-One-End--><!--Slide-One-->
+	<div class="slide">
+	<img src="images/sliders/dawn.jpg" alt="Banner by Andy">
+	<!--Caption Start-->
+	<div class="caption">
+		<h3>The Times of Everest is the only news portal you can trust on</h3>
+		<p>The Times of Everest is the only news portal you can count on. We are social where we collect news from your society</p>
+		<p><a href="http://www.thetimesofeverest.com">READ MORE</a></p>
+	</div>
+	<!--Caption Ends-->
+	</div>
+	<!--Slide-One-End--><!--Slide-One-->
+	<div class="slide">
+	<img src="images/sliders/window.jpg" alt="Banner by Andy">
+	<!--Caption Start-->
+	<div class="caption">
+		<h3>The only place for your beauty needs</h3>
+		<p>Here at women's world we do all the beauty need a women can imagine of. From eyebrows to waxing, nails and facial. Grab your offer</p>
+		<p><a href="http://www.womensworldbeauty.com">CALL NOW</a></p>
+	</div>
+	<!--Caption Ends-->
+	</div>
+	<!--Slide-One-End--><!--Slide-One-->
+	<div class="slide">
+	<img src="images/sliders/beach.jpg" alt="Banner by Andy">
+	<!--Caption Start-->
+	<div class="caption">
+		<h3>Bored with your daily life, no more youtube is here </h3>
+		<p>Common don't be so bored with your useless life. Head to our site to enjoy anything you can think of before you die tonight.</p>
+		<p><a href="http://www.youtube.com">WATCH NOW</a></p>
+	</div>
+	<!--Caption Ends-->
+	</div>
+	<!--Slide-One-End--><!--Slide-One-->
+	<div class="slide">
+	<img src="images/sliders/classic.jpg" alt="Banner by Andy">
+	<!--Caption Start-->
+	<div class="caption">
+		<h3>Want to know more about political conditions of Nepal??</h3>
+		<p>Canada Nepal offers you with all the craps you can take including the videos which don't even play and all those nonsense advertisement.</p>
+		<p><a href="http://www.canadanepal.info">READ MORE</a></p>
+	</div>
+	<!--Caption Ends-->
+	</div>
+	<!--Slide-One-End--><!--Slide-One-->
+	<div class="slide">
+	<img src="images/sliders/dock.jpg" alt="Banner by Andy">
+	<!--Caption Start-->
+	<div class="caption">
+		<h3>Looking to buy a house with confidence?</h3>
+		<p>The Realtors Nepal offers you with all the new listing of properties you are looking for. No middle man, no susprise, no problems. </p>
+		<p><a href="http://www.therealtorsnepal.com">BUY HOMES</a></p>
+	</div>
+	<!--Caption Ends-->
+	</div>
+	<!--Slide-One-End--><!--Slide-One-->
+	<div class="slide">
+	<img src="images/sliders/water.jpg" alt="Banner by Andy">
+	<!--Caption Start-->
+	<div class="caption">
+		<h3>Get all your winter clothing for less</h3>
+		<p>We are here to kick winter's ass. We make all winter clothing needs including sweaters, hats, socks and really winter sucks..my bad winter shocks..</p>
+		<p><a href="http://www.starhosieryudhyo.com">RESERVE</a></p>
+	</div>
+	<!--Caption Ends-->
+	</div>
+	<!--Slide-One-End--></div>	
+<!--Slider  Ends-->
+<!--Here starts Catagory Sections-->
+<p class="big_text" style="text-align:center"><strong>Get the latest and breaking news stories from around the world.</strong></p>
+
+
+<!--Main Body Content-->
+<!--Catogory List Starts-->
+<div class="catagory_container left">
+	<div class="catagory_header"><a class="cat_header" href="browsecat.php?catid=2">News and Buzz</a></div><li class="home_list">&nbsp;<a href="newsdetails.php?pid=71">After a day of criticism over comments he made about </a></li>
+								<hr/><li class="home_list">&nbsp;<a href="newsdetails.php?pid=70">After a day of criticism over comments he made about </a></li>
+								<hr/><li class="home_list">&nbsp;<a href="newsdetails.php?pid=69">After a day of criticism over comments he made about </a></li>
+								<hr/><li class="home_list">&nbsp;<a href="newsdetails.php?pid=68">The pharmaceutical industry mounted a new challenge o</a></li>
+								<hr/><li class="home_list">&nbsp;<a href="newsdetails.php?pid=67">headeer is good</a></li>
+								<hr/><li class="home_list">&nbsp;<a href="newsdetails.php?pid=66">'Tiger heavyweight' Nepal hosts anti-poaching summit</a></li>
+								<hr/><li class="home_list">&nbsp;<a href="newsdetails.php?pid=63">Experts from conservation group WWF, which is co-host</a></li>
+								<hr/><li class="home_list">&nbsp;<a href="newsdetails.php?pid=62">After a day of criticism over comments he made about </a></li>
+								<hr/><li class="home_list">&nbsp;<a href="newsdetails.php?pid=26">Doritos went viral because Koly eat it all without to</a></li>
+								<hr/><li class="home_list">&nbsp;<a href="newsdetails.php?pid=25">How was the surprise man?</a></li></div><!--Catogory List Ends-->
+<!--Home Page Video Gallery Starts-->
+<div class="catagory_container left">
+	<div class="catagory_header"><a class="cat_header" href="#">Videos</a></div>
+	<iframe width="100%" height="315" src="https://www.youtube.com/embed/dW5kRBq30m4" frameborder="0" allowfullscreen></iframe>
+	
+	<!--<img class="category_img" src="./PHP Enter Demo_files/2011024716.jpg" alt="Android Runs on Hewlett-Packard TouchPad">-->
+	<p> <span class="big_title">Michelle Obama: My challenge to you</span><br/>
+		Tourism drives about 80 per cent of the demand for suborbital flights, which reach about 63 miles above the...
+	</p>
+</div>
+<!--Home Page Video Gallery Ends-->
+<div class="catagory_container left">
+	<div class="catagory_header"><a class="cat_header" href="browsecat.php?catid=7">Health</a></div><li class="home_list">&nbsp;<a href="newsdetails.php?pid=65">The pharmaceutical industry mounted a new challenge o</a></li>
+								<hr/><li class="home_list">&nbsp;<a href="newsdetails.php?pid=64">Makers of Generic Drugs Challenge F.D.A. Plan for Upd</a></li>
+								<hr/></div>
+<div class="catagory_container left">
+	<div class="catagory_header">
+		<a class="cat_header" href="#">Everest Photos</a></div><li class="none">
+		<div class="home_gallary left">	
+			<a href="photos.php?gallary=20"><img src="gallery/giraffe-718054_640.jpg"/></a>
+		</div>
+		<div class="gallary_title left">
+			<a href="photos.php?gallary=20"><strong>Wildlife</strong></a>
+		</div>
+		<div class="clear"></div>
+		</li><hr/><li class="none">
+		<div class="home_gallary left">	
+			<a href="photos.php?gallary=18"><img src="gallery/30967earth.jpg"/></a>
+		</div>
+		<div class="gallary_title left">
+			<a href="photos.php?gallary=18"><strong>earth</strong></a>
+		</div>
+		<div class="clear"></div>
+		</li><hr/><li class="none">
+		<div class="home_gallary left">	
+			<a href="photos.php?gallary=17"><img src="gallery/26001I am in depression.jpg"/></a>
+		</div>
+		<div class="gallary_title left">
+			<a href="photos.php?gallary=17"><strong>I am in depression</strong></a>
+		</div>
+		<div class="clear"></div>
+		</li><hr/><li class="none">
+		<div class="home_gallary left">	
+			<a href="photos.php?gallary=8"><img src="gallery/1113.jpg"/></a>
+		</div>
+		<div class="gallary_title left">
+			<a href="photos.php?gallary=8"><strong>hello sathi</strong></a>
+		</div>
+		<div class="clear"></div>
+		</li><hr/><li class="none">
+		<div class="home_gallary left">	
+			<a href="gallary.php?pid=7"><img src="gallery/4256.jpg"/></a>
+		</div>
+		<div class="gallary_title left">
+			<a href="gallary.php?pid=7"><strong>wha</strong></a>
+		</div>
+		<div class="clear"></div>
+	</li>
+	</div><!--Photo Gallary Starts--
+<div class="catagory_container left">
+	<div class="catagory_header">
+		<a class="cat_header" href="#">Everest Photos</a>
+	</div>
+	<li class="none">
+		<div class="home_gallary left">	
+			<a href="newsdetails.php?pid=18"><img src="gallery/30967earth.jpg"/></a>
+		</div>
+		<div class="gallary_title left">
+			<a href="newsdetails.php?pid=18"><strong>earth</strong></a>
+		</div>
+	<div class="clear"></div>
+	</li>
+	<hr/>
+
+</div>
+<!--Photo Gallery Ends-->
+<div class="catagory_container left">
+	<div class="catagory_header"><a class="cat_header" href="browsecat.php?catid=8">Tech</a></div><p align="center" style="color:red"><strong>There is No Following News in this Category</strong></p></div>
+<div class="catagory_container left">
+	<div class="catagory_header">
+		<a class="cat_header" href="browsecat.php?catid=29">Opinions</a></div><li class="none">
+		<div class="home_gallary left">	
+			<a href="newsdetails.php?pid=7"><img src="images/news_images/IMG_1012.JPG"/></a>
+		</div>
+		<div class="gallary_title left">
+			<a href="newsdetails.php?pid=7"><strong>headeer is good</strong></a>
+		</div>
+		<div class="clear"></div>
+	</li>
+	<hr/><li class="none">
+		<div class="home_gallary left">	
+			<a href="newsdetails.php?pid=6"><img src="images/news_images/najj2.jpg"/></a>
+		</div>
+		<div class="gallary_title left">
+			<a href="newsdetails.php?pid=6"><strong>headeer</strong></a>
+		</div>
+		<div class="clear"></div>
+	</li>
+	<hr/><li class="none">
+		<div class="home_gallary left">	
+			<a href="newsdetails.php?pid=5"><img src="images/news_images/najj1.jpg"/></a>
+		</div>
+		<div class="gallary_title left">
+			<a href="newsdetails.php?pid=5"><strong>headeer 5</strong></a>
+		</div>
+		<div class="clear"></div>
+	</li>
+	<hr/><li class="none">
+		<div class="home_gallary left">	
+			<a href="newsdetails.php?pid=4"><img src="images/news_images/luxpo.jpg"/></a>
+		</div>
+		<div class="gallary_title left">
+			<a href="newsdetails.php?pid=4"><strong>'Tiger heavyweight' Nepal host</strong></a>
+		</div>
+		<div class="clear"></div>
+	</li>
+	<hr/><li class="none">
+		<div class="home_gallary left">	
+			<a href="newsdetails.php?pid=2"><img src="images/news_images/luxpo2.jpg"/></a>
+		</div>
+		<div class="gallary_title left">
+			<a href="newsdetails.php?pid=2"><strong>After a day of criticism over </strong></a>
+		</div>
+		<div class="clear"></div>
+	</li>
+	</div><!--Opinion Starts--
+<div class="catagory_container left">
+	<div class="catagory_header">
+		<a class="cat_header" href="#">Opinions</a>
+	</div>
+	<li class="none">
+		<div class="home_gallary left">	
+			<a href="newsdetails.php?pid=18"><img src="gallery/30967earth.jpg"/></a>
+		</div>
+		<div class="gallary_title left">
+			<a href="newsdetails.php?pid=18"><strong>earth</strong></a>
+		</div>
+		<div class="clear"></div>
+	</li>
+	<hr/>
+	
+</div>
+<!--Opinion Ends-->
+<div class="catagory_container left">
+	<div class="catagory_header"><a class="cat_header" href="browsecat.php?catid=3">Politics</a></div><p align="center" style="color:red"><strong>There is No Following News in this Category</strong></p></div>
+<div class="catagory_container left">
+	<div class="catagory_header"><a class="cat_header" href="browsecat.php?catid=4">Sports</a></div><p align="center" style="color:red"><strong>There is No Following News in this Category</strong></p></div>
+<div class="catagory_container left">
+	<div class="catagory_header"><a class="cat_header" href="browsecat.php?catid=5">Entertainment and Living</a></div><p align="center" style="color:red"><strong>There is No Following News in this Category</strong></p></div>
+<div class="catagory_container left">
+	<div class="catagory_header"><a class="cat_header" href="browsecat.php?catid=6">Travel</a></div><p align="center" style="color:red"><strong>There is No Following News in this Category</strong></p></div><p class="big_text docy"><strong>From our partners</strong></p><br/>
+
+<div class="catagory_container left">
+	<div class="catagory_header"><a class="cat_header" href="browsecat.php?catid=5">Entertainment and Living</a></div><p align="center" style="color:red"><strong>There is No Following News in this Category</strong></p></div>
+
+<div class="catagory_container left">
+	<div class="catagory_header"><a class="cat_header" href="browsecat.php?catid=6">Travel</a></div><p align="center" style="color:red"><strong>There is No Following News in this Category</strong></p></div></section>
+<!--Category Section Ends-->
+<!--Here goes sidebar Start-->
+<aside class="sidebar">
+	<!--Advertisement-->
+<div class="sponsors_container">
+<!--?php
+echo adddisplay("HOME", "A");
+	//<img src="images/Sponsor/starlogo.jpg" alt="sponsor" /></a>
+	?-->
+	
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Home Rectangle & Square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8120646402201434"
+     data-ad-slot="6507081307"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+</div>
+<!--latest news for php--->
+<div class="latest_news">
+	<div class="catagory_header">Latest News</div>
+	<div class="ha5">
+			<span class="ha3"><a href="newsdetails.php?pid=71"><strong>After a day of criticism over comments he made about vaccinations</strong></a></span>
+			<br/>
+			<p><strong>RUPANDEHI, NP</strong>. — After a day of criticism over comments he made about vaccinations and mental disorders, Sen. Rand Paul, R-Kentucky, tried to clarify his statement today and show his own comfort with vaccinations.After a day of criticism over comments he made about vaccinations and mental disorders, Sen. Rand Paul, ....
+			<a href="newsdetails.php?pid=71" class="fs_button">FULL STORY...</a>
+			</p>
+		</div><div class="ha5">
+			<span class="ha3"><a href="newsdetails.php?pid=70"><strong>After a day of criticism over comments he made about vaccinations</strong></a></span>
+			<br/>
+			<p><strong>RUPANDEHI, NP</strong>. — After a day of criticism over comments he made about vaccinations and mental disorders, Sen. Rand Paul, R-Kentucky, tried to clarify his statement today and show his own comfort with vaccinations.After a day of criticism over comments he made about vaccinations and mental disorders, Sen. Rand Paul, ....
+			<a href="newsdetails.php?pid=70" class="fs_button">FULL STORY...</a>
+			</p>
+		</div><div class="ha5">
+			<span class="ha3"><a href="newsdetails.php?pid=69"><strong>After a day of criticism over comments he made about vaccinations</strong></a></span>
+			<br/>
+			<p><strong>RUPANDEHI, NP</strong>. — After a day of criticism over comments he made about vaccinations and mental disorders, Sen. Rand Paul, R-Kentucky, tried to clarify his statement today and show his own comfort with vaccinations.After a day of criticism over comments he made about vaccinations and mental disorders, Sen. Rand Paul, ....
+			<a href="newsdetails.php?pid=69" class="fs_button">FULL STORY...</a>
+			</p>
+		</div><div class="ha5">
+			<span class="ha3"><a href="newsdetails.php?pid=68"><strong>The pharmaceutical industry mounted a new challenge on Friday to a federal plan</strong></a></span>
+			<br/>
+			<p><strong>THE TIMES OF EVEREST</strong>. — <p>&nbsp;<strong>BETHESDA, Md</strong>. &mdash; The pharmaceutical industry mounted a new challenge on Friday to a federal plan that would require generic drug companies to take the initiative to update their labels to warn consumers whenever health risks were discovered, a shift that would expose t....
+			<a href="newsdetails.php?pid=68" class="fs_button">FULL STORY...</a>
+			</p>
+		</div><div class="ha5">
+			<span class="ha3"><a href="newsdetails.php?pid=67"><strong>headeer is good</strong></a></span>
+			<br/>
+			<p><strong>THE TIMES OF EVEREST</strong>. — In part 7 we build the page that is responsible for creating new pages into the PHP MySQL system. The form sends the data using a basic textarea. In a nice robust system you would implement a Javascript WYSIWYG Rich Text Editor in place of my textarea.In part 7 we build the page that is responsible ....
+			<a href="newsdetails.php?pid=67" class="fs_button">FULL STORY...</a>
+			</p>
+		</div></div>
+<!--Latest News Section Ends-->
+
+<!--Advertisement-->
+<div class="sponsors_container">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Home Rectangle & Square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8120646402201434"
+     data-ad-slot="6507081307"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+	
+</div>
+<!--Forex-->
+<div class="ha5">
+	<div class="blockhead">FOREX</div>
+		<table width="100%" border="0px" cellpadding="5px">
+		<tbody>
+		<tr class="t_head left_ag">
+			<th scope="col" class="fifty">Currency</th>
+			<th scope="col" class="twenty">Buy</th>
+			<th scope="col" class="twenty">Sell</th>
+		</tr><tr>
+			<th scope="row" class="left_ag">USD</th>
+			<td class="center_ag">48</td>
+			<td class="center_ag">78</td>
+		</tr>
+		<tr>
+			<th scope="row" class="left_ag">EUR</th>
+			<td class="center_ag">45</td>
+			<td class="center_ag">67</td>
+		 </tr>
+		<tr align="left" class="left_ag">
+			<th scope="row">UK pound sterling</th>
+			<td class="center_ag">78</td>
+			<td class="center_ag">55</td>
+		</tr>
+		<tr>
+			<th scope="row" class="left_ag">Australian dollar</th>
+			<td class="center_ag">867</td>
+			<td class="center_ag">76</td>
+		</tr>
+		<tr>
+			<th scope="row" class="left_ag">Canadian dollar</th>
+			<td class="center_ag">56</td>
+			<td class="center_ag">876</td>
+		</tr>
+		<tr>
+			<th scope="row" class="left_ag">Swiss franc</th>
+			<td class="center_ag">65</td>
+			<td class="center_ag">86</td>
+		</tr>
+		<tr>
+		<td colspan="3" class="center_ag smally">As of Saturday 26, September 2015 12:00 AM</td>
+		</tr></tbody></table>
+</div>
+<!--Advertisement-->
+<div class="sponsors_container">
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Home Rectangle & Square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8120646402201434"
+     data-ad-slot="6507081307"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</div>
+<div class="sponsors_container">
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Home Rectangle & Square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8120646402201434"
+     data-ad-slot="6507081307"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<div class="clear"></div>
+</div>
+<!--Weather-->
+<div class="ha5">
+	<div class="blockhead">WEATHER</div>
+		<table width="100%" border="0px" cellpadding="5px">
+		<tbody>
+		<tr class="t_head left_ag">
+			<th scope="col" class="fourty">City</th>
+			<th scope="col" class="twelve">Min</th>
+			<th scope="col" class="twenty">Max</th>
+			<th scope="col" class="twenty">Prec</th>
+		</tr><tr>
+			<th scope="row" class="left_ag">Kathmandu</th>
+			<td class="center_ag">5</td>
+			<td class="center_ag">4</td>
+			<td class="center_ag">8%</td>
+		</tr>
+		<tr>
+			<th scope="row" class="left_ag">Pokhara</th>
+			<td class="center_ag">6</td>
+			<td class="center_ag">7</td>
+			<td class="center_ag">6%</td>
+		 </tr>
+		<tr align="left" class="left_ag">
+			<th scope="row">Biratnagar</th>
+			<td class="center_ag">5</td>
+			<td class="center_ag">8</td>
+			<td class="center_ag">9%</td>
+		</tr>
+		<tr>
+			<th scope="row" class="left_ag">Bhairahawa</th>
+			<td class="center_ag">5</td>
+			<td class="center_ag">4</td>
+			<td class="center_ag">6%</td>
+		</tr>
+		<tr>
+			<th scope="row" class="left_ag">Nepalgunj</th>
+			<td class="center_ag">9</td>
+			<td class="center_ag">6</td>
+			<td class="center_ag">5%</td>
+		</tr>
+		<tr>
+		<td colspan="4" class="center_ag smally green">As of Monday 1, February 2016 12:00 AM</td>
+		</tr></tbody></table>
+</div><!--Advertisement-->
+<div id="sponsors_container">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Home Rectangle & Square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8120646402201434"
+     data-ad-slot="6507081307"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+</div>
+<div id="sponsors_container">
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Home Rectangle & Square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8120646402201434"
+     data-ad-slot="6507081307"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+<div class="clear"></div>
+</div>
+<!--Survey--
+<div class="ha5">
+<div class="catagory_header">&nbsp;Survey</div>
+<div><br>Wednesday - April 1 , 2015 <h3>What is your name?</h3>
+				<form action=""><h4>
+<input type="radio" name="pollans" value="a">Andy<br>
+<input type="radio" name="pollans" value="b">Sandy<br>
+<input type="radio" name="pollans" value="c">Deepak<br>
+<input type="radio" name="pollans" value="d">Pritesh<br><br></h4>
+<input type="submit" name="pollsubmit" value="Submit"></form></div>
+</div>
+-->
+<div class="ha5">
+<div class="catagory_header">&nbsp;Survey</div><div><br/>Wednesday - April 1 , 2015 <h3>What is your name?</h3>
+				<form action=""><h4>
+<input type="radio" name="pollans" value="a"/>Andy<br/>
+<input type="radio" name="pollans" value="b"/>Sandy<br/>
+<input type="radio" name="pollans" value="c"/>Deepak<br/>
+<input type="radio" name="pollans" value="d"/>Samima<br/><br/></h4>
+<input type="submit" name="pollsubmit" value="Submit"/></form></div></div></aside><!--Hear Ends Sidebar-->
+
+<div class="clear"></div>
+
+<!--Advertisement before Footer-->
+<div class="beforefooter">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- BeforeFooter -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8120646402201434"
+     data-ad-slot="4332344108"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</div>
+
+<!--Footer Content Starts-->
+<footer class="main_footer">
+<!--Top Footer content starts-->
+<div class="top_footer">
+	<a href="static.php">About Us</a> |
+	<a href="#">Privacy Policy</a> | 
+	<a href="#">Terms of Use</a> | 
+	<a href="faq.php">FAQ</a> |  
+	<a href="#">Feedback</a> | 
+	<a href="contact.php">Contact Us</a>
+	<br/><br/>
+	<a href="sponsor.php">Advertise with Us</a> |
+	<a href="#">Sitemap</a> | 
+	<a href="#">Archives</a> | 
+	<a href="#">RSS</a><br><br>
+<!--Newsletter Sign up form-->
+<form name="signupform" id="signupform" onsubmit="return false;">
+	<p align="center"><strong>NEWSLETTER SIGNUP :</strong>&nbsp;&nbsp;
+	<input id="sus_name" name="sus_name" type="text" placeholder="Enter your Name" size="15">
+	<input id="sus_email" name="sus_email" type="text" placeholder="Enter your Email" size="26">
+	<input id="optin" name="optin" type="submit" value="SUBSCRIBE" onclick="newsletter()"><br>
+	<span id="status"></span>
+	</p>
+</form>
+<!--Newsletter Sign up form Ends-->
+</div>
+<!--Top Footer Ends-->
+<!--BOTTOM FOOTER Starting-->
+<div class="bottom_footer">
+<!--Copyright Goes Here-->
+	<div class="copyright">
+		<p>Copyright © 2015 The Times of Everest, Jainson Solution Inc. All rights reserved.</p>
+                 <a href="http://www.geniusfreelancers.com"><p>Designed By: Genius Freelancers Inc</p></a>
+	</div>
+<!--Social Icons Goes Here-->
+	<div class="social_icons">
+		<p><strong>FOLLOW US ON</strong></p>
+		<a target="_blank" href="https://www.facebook.com/thetimesofeverest"><img src="images/icons/facebook.png" alt="facebook" width="44px" height="44px"></a> 
+		<a target="_blank" href="#"><img src="images/icons/twitter.png" alt="twitter" width="44px" height="44px"></a> 
+		<a target="_blank" href="#"><img src="images/icons/google_plus.png" alt="google_plus" width="44px" height="44px"></a> 
+	</div>
+	<div style="clear:both;"></div>
+</div>
+<!--Bottom Footer content ends-->
+</footer><!--Footer content ends-->
+</div>
+<!--Main Wrapper Ends-->
+</body>
+
+</html>
